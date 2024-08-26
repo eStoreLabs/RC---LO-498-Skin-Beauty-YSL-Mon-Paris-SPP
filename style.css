@@ -549,8 +549,10 @@ body {
 }
 @media screen and (min-width: 600px) {
   #es-ysl.es-ysl .es-category__items {
-    flex-direction: row;
     gap: 5px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
     justify-content: center;
     align-items: initial;
   }
